@@ -1,0 +1,206 @@
+ /* A_21861048_김희진_12주차  */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family:"나눔고딕", "고딕";
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #109ceb;
+}
+ul{
+  list-style-type: none;
+}
+  .clear{
+    clear:both;
+  }
+/* 헤더시작 */
+#page {
+    width:980px;
+    margin:0 auto;
+}
+a:link {
+  color:#ffffff;
+  text-decoration:none;
+}
+a:visited{
+  color:#ffffff;
+}
+header #logo {
+    float:left;
+    margin:30px 0 0 20px;
+}
+/* header #moto {
+    float:left;
+    margin:45px 0 0 20px;
+} */
+header #top_menu {
+    float:right;
+    margin:50px 0 0 0;
+}
+header #top_menu li {
+    display:inline;
+    color: #ffffff;
+}
+
+.line {
+    margin-top:50px;
+    border-top:solid 3px #ffffff;
+}
+
+header nav ul {
+    margin-top:25px;
+}
+header nav li {
+    display:inline;
+}
+header nav li.item {
+    margin-left:40px;
+}
+/* 헤더 끝 */
+
+/* 배너 시작 */
+main {
+    margin-top:10px;
+}
+
+#banner {
+    height:300px;
+    background-color:#ffffff;
+}
+#banner ul {
+    margin-top:5px;
+}
+#banner li {
+    display:inline;
+    margin-left:-8px;
+}
+/* 베너 끝 */
+
+/* 중간배너 시작 */
+#customer {
+    width:300px;
+    height:111px;
+    float:left;
+    margin-top:20px;
+}
+ #customer .title {
+    margin-left:10px;
+    float:left;
+}
+#customer .more {
+    float:right;
+}
+#customer .phone {
+    margin-left:10px;
+}
+
+#notice {
+    width:300px;
+    height:111px;
+    float:left;
+    margin-top:20px;
+    margin-left:40px;
+}
+#notice .title {
+    margin-left:10px;
+    float:left;
+}
+#notice .more {
+    float:right;
+}
+#notice ul {
+    margin-top:12px;
+    color:#ffffff;
+}
+#notice li {
+    margin-top:5px;
+}
+#notice .subject {
+    float:left;
+    margin-left:10px;
+}
+#notice .date {
+    float:right;
+    margin-right:5px;
+}
+
+#faq {
+    width:300px;
+    height:111px;
+    float:left;
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.line {
+    margin-top:25px;
+    border-top:solid 1px #ffffff;
+}
+/* 중간배너 끝 */
+
+/* 사이트맵 시작 */
+#sitemap {
+    padding:20px 0 0 15px;
+}
+#sitemap div {
+    height:140px;
+    float:left;
+    margin:0 93px 0 15px;
+}
+#sitemap h3{
+    font-size:15px;
+    color:#ffffff;
+    margin-left:16px;
+}
+#sitemap ul{
+    color:#ffffff;
+}
+#sitemap li{
+    margin:7px 0 0 20px;
+    list-style-image:url("img/blue_dot.gif");
+}
+/* 사이트맵 끝 */
+
+/* 푸터 시작 */
+footer {
+    padding:20px 0 0 15px;
+    border-top:solid 3px #ffffff;
+    color:#ffffff;
+}
+footer #address {
+    float:left;
+}
+footer #link {
+    float:right;
+}
+footer #footer_menu li {
+    margin-top:5px;
+}
+footer #company_info {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+footer #company_info li {
+    margin-top:2px;
+}
+footer #copyright {
+    margin-top:10px;
+    font-size:11px;
+    color:#ffffff;
+}
+footer #link h3 {
+    font-size:16px;
+    color:#ffffff;
+}
+footer #link select {
+    margin:5px 0 0 50px;
+    width:100px;
+    height:18px;
+    font-size:11px;
+}
+footer #icons {
+    margin-top:5px;
+    text-align:right;
+}

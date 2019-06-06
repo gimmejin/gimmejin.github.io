@@ -1,0 +1,175 @@
+ /* A_21861048_김희진_12주차  */
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: "나눔고딕", "고딕";
+  font-size: 12px;
+  color: black;
+}
+/* 헤더시작 */
+ul{
+  list-style-type: none;
+}
+.clear{
+clear: both;
+}
+#page{
+  width: 980px;
+  margin:0 auto;
+}
+a:link {
+  color:black;
+  text-decoration:none;
+}
+a:visited{
+  color:black;
+}
+header #logo {
+    float:left;
+    margin:30px 0 0 20px;
+}
+header #top_menu {
+    float:right;
+    margin:50px 0 0 0;
+}
+header #top_menu li {
+    display:inline;
+    color: black;
+}
+.line {
+    margin-top:25px;
+    border-top:solid 2px #109ceb;
+}
+header nav ul {
+    margin-top:25px;
+}
+header nav li {
+    display:inline;
+}
+header nav li.item {
+    margin-left:40px;
+}
+/* 헤더 끝 */
+
+/* lnb시작 */
+aside {
+    width:180px;
+    float:left;
+    margin-top:30px;
+}
+aside h3 {
+    margin:5px;
+    border-bottom:solid 3px #109ceb;
+}
+aside .col1 {
+    float:left;
+    font-size:15px;
+}
+aside .col2 {
+    float:right;
+    font-size:6px;
+}
+aside ul {
+    margin:15px 5px 5px 5px;
+}
+aside li {
+    padding:12px;
+    border-bottom:solid 1px #cccccc;
+}
+aside li.selected {
+    border:0;
+    background-color:#109ceb;
+    color:#ffffff;
+}
+aside li.end {
+    border-bottom:solid 3px #cccccc;
+}
+aside #customer {
+    margin:30px 0 0 8px;
+}
+/* lnb 끝 */
+
+/* 메인 시작 */
+section {
+    width:772px;
+    height:470px;
+    float:left;
+    margin-left:26px;
+    margin-top:30px;
+}
+section #sub_img {
+    margin-top:5px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+section .product {
+    width:761px;
+    height:70px;
+    margin-top:20px;
+    padding:15px 5px 5px 5px;
+    border-top:solid 2px #109ceb;
+}
+section .product h3 {
+    float:left;
+}
+section .product .btns {
+    float:left;
+    margin-left:20px;
+}
+section .product ul {
+    margin-top:10px;
+}
+section .product li {
+    margin:3px;
+}
+#sub_img2{
+  margin-left: 310px;
+}
+/* 메인 끝 */
+
+/* 푸터 시작 */
+footer {
+    margin-top: 350px;
+    padding:20px 0 0 15px;
+    border-top:solid 3px #109ceb;
+    color:gray;
+}
+footer #address {
+    float:left;
+}
+footer #link {
+    float:right;
+}
+footer #footer_menu li {
+    margin-top:5px;
+}
+footer #company_info {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+footer #company_info li {
+    margin-top:2px;
+}
+footer #copyright {
+    margin-top:10px;
+    font-size:11px;
+    color:#gray;
+}
+footer #link h3 {
+    font-size:16px;
+    color:#ffffff;
+}
+footer #link select {
+    margin:5px 0 0 50px;
+    width:100px;
+    height:18px;
+    font-size:11px;
+}
+footer #icons {
+    margin-top:5px;
+    text-align:right;
+}
+/* 끝 */

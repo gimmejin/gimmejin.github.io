@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- A_2186148_김희진 -->
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>가변 그리드와 미디어 쿼리로 반응형 웹페이지 만들기</title>
+    <meta name="viewport" content="width=divice-width, inltial-scale=1.0">
+    <style media="screen">
+      *{
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+      ul{
+        list-style-type:none;
+      }
+      body{
+        font-family:"나눔고딕","맑은 고딕";
+        font-size:100%;
+      }
+
+      [class*="c_"]{
+        float:left;
+        padding:10px;
+      }
+      /* 너비가 600픽셀 미만인 스마트폰을 위한 기본 설정 */
+      [class*="C_"]{
+        width:100%;
+      }
+      /* 너비가 600픽셀 이상인 태블릿을 위한 설정 */
+      @media only screen and (min-width:600px){
+        .c_m_1{width:8.33%;}
+        .c_m_2{width:16.66%;}
+        .c_m_3{width:25%;}
+        .c_m_4{width:33.33%;}
+        .c_m_5{width:41.66%;}
+        .c_m_6{width:50%;}
+        .c_m_7{width:58.33%;}
+        .c_m_8{width:66.66%;}
+        .c_m_9{width:75%;}
+        .c_m_10{width:83.33%;}
+        .c_m_11{width:91.66%;}
+        .c_m_12{width:100%;}
+      }
+      /* 너비가 768픽셀 이상인 데스크톱 컴퓨터, 노트북 등 */
+      @media only screen and (min-width: 768px) {
+          .c_1 {width: 8.33%; }
+          .c_2 {width: 16.66%; }
+          .c_3 {width: 25%; }
+          .c_4 {width: 33.33%; }
+          .c_5 {width: 41.66%; }
+          .c_6 {width: 50%; }
+          .c_7 {width: 58.33%; }
+          .c_8 {width: 66.66%; }
+          .c_9 {width: 75%; }
+          .c_10 {width: 83.33%; }
+          .c_11 {width: 91.66%; }
+          .c_12 {width: 100%; }
+      }
+      header {
+          height: 80px;
+          padding:20px;
+          background-color: #66c0e7;
+      }
+      h1{
+        color: #ffffff;
+      }
+      h2{
+        color: #66c0e7;
+      }
+      a:link {
+        color:#002335;
+        text-decoration:none;
+      }
+      a:visited{
+        color:#002335;
+      }
+      aside#menu li {
+          padding: 10px;
+          margin: 5px 0 0 0;
+          background-color: #C7EFF9;
+      }
+      section#main {
+          padding: 15px;
+      }
+      section#main p {
+          padding:5px;
+          font-size: 0.95em;
+          line-height: 130%;
+      }
+      aside#photos img {
+          width: 60%;
+      }
+      aside#photos li {
+          margin: 5px 0 0 0;
+      }
+      footer {
+          height: 60px;
+          padding:10px;
+          clear: both;
+          text-align: center;
+          background-color: #eeeeee;
+      }
+      </style>
+      </head>
+      <body>
+        <header class="c12">
+          <h1><a href="./index12_21861048.html">♪ 행복한 제주도 ♬</a></h1>
+        </header>
+
+        <aside id="menu" class="c_m_3 c_3">
+          <ul>
+            <a href="./sub4.html"><li>용두암</li></a>
+            <a href="./sub2.html"><li>3D 착시아트</li></a>
+            <a href="./sub1.html"><li>아이스 뮤지엄</li></a>
+            <a href="./sub3.html"><li>수목원 테마파크</li></a>
+          </ul>
+        </aside>
+
+        <section id="main"  class="c_m_9 c_6">
+          <h2>제주도로 떠나자!</h2>
+          <p> 첫 비행기!첫 여행! </p>
+          <p> 김희진의 23살 인생 첫 여행 스토리를 구경해보세요~</p>
+        </section>
+        <aside id="photos" class="c_m_12 c_3">
+          <h4>PHOTOS</h4>
+          <ul>
+            <li><img src="./img/a9.jpg"></li>
+            <li><img src="./img/a5.jpg"></li>
+          </ul>
+        </aside>
+
+        <footer class="c12">
+          COPYRIGHT(C) 제주로갑시다 All Rights Reseved.
+        </footer>
+      </body>
+      </html>
