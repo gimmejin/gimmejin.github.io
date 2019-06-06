@@ -1,0 +1,327 @@
+    <meta name="viewport"content="width=divice-width, inltial-scale=1.0" > 
+   * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        max-width: 980px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    body {
+        font-family: "나눔고딕";
+        font-size: 100%;
+        background-color: #F5E7E3;
+    }
+
+    [class*="c_"] {
+        float: left;
+        padding: 10px;
+    }
+
+    /* 너비가 600픽셀 미만인 스마트폰을 위한 기본 설정 */
+    [class*="C_"] {
+        width: 100%;
+    }
+
+    /* 너비가 600픽셀 이상인 태블릿을 위한 설정 */
+    @media only screen and (min-width:600px) {
+        .c_m_1 {
+            width: 8.33%;
+        }
+
+        .c_m_2 {
+            width: 16.66%;
+        }
+
+        .c_m_3 {
+            width: 25%;
+            height:100%
+        }
+
+        .c_m_4 {
+            width: 33.33%;
+        }
+
+        .c_m_5 {
+            width: 41.66%;
+        }
+
+        .c_m_6 {
+            width: 50%;
+        }
+
+        .c_m_7 {
+            width: 58.33%;
+        }
+
+        .c_m_8 {
+            width: 66.66%;
+        }
+
+        .c_m_9 {
+            width: 75%;
+        }
+
+        .c_m_10 {
+            width: 83.33%;
+        }
+
+        .c_m_11 {
+            width: 91.66%;
+        }
+
+        .c_m_12 {
+            width: 100%;
+        }
+    }
+
+    /* 너비가 768픽셀 이상인 데스크톱 컴퓨터, 노트북 등 */
+    @media only screen and (min-width: 960px) {
+        .c_1 {
+            width: 8.33%;
+        }
+
+        .c_2 {
+            width: 16.66%;
+        }
+
+        .c_3 {
+            width: 15%;
+            height: 100%;
+        }
+
+        .c_4 {
+            width: 33.33%;
+        }
+
+        .c_5 {
+            width: 41.66%;
+        }
+
+        .c_6 {
+            width: 50%;
+        }
+
+        .c_7 {
+            width: 58.33%;
+        }
+
+        .c_8 {
+            width: 66.66%;
+        }
+
+        .c_9 {
+            width: 75%;
+        }
+
+        .c_10 {
+            width: 83.33%;
+        }
+
+        .c_11 {
+            width: 91.66%;
+        }
+
+        .c_12 {
+            width: 100%;
+        }
+    }
+
+/*
+    header {
+        height: 30px;
+    }
+*/
+
+    a:link {
+        color: #002335;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #002335;
+    }
+
+
+    aside#menu {
+        border-right: 2px solid #D65353;
+        position: fixed;
+    }
+
+    aside#menu li {
+        padding: 10px;
+
+    }
+
+    aside#menu li:hover {
+        color: #F7C45F;
+        border-bottom: 2px solid #D65353;
+    }
+
+    section#main {
+        padding: 15px;
+        margin-left: 600px;
+        padding-top: 50px;
+    }
+
+    section#main li {
+        padding-bottom: 25px;
+
+    }
+
+    section#main p {
+        padding: 5px;
+        font-size: 0.95em;
+        line-height: 130%;
+    }
+
+    #pro {
+        margin-left: -90px;
+    }
+
+    #me {
+        border-radius: 100%;
+    }
+
+    section#profile {
+        margin-left: 300px;
+        display: inline-block;
+    }
+
+    section#profile li {
+        padding-bottom: 15px;
+        color: #28364A;
+    }
+
+    #profile h2 {
+        font-size: 30px;
+        font-family: "AppleSDGothicNeoH00 Regular";
+        color: 28364A;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    #profile div {
+        margin-left: 50px;
+        display: inline;
+    }
+
+    #profile img {
+        margin-left: -15px;
+    }
+
+    #publising div {
+        margin-left: 50px;
+        display: inline;
+    }
+
+    #publising h2 {
+        font-size: 30px;
+        font-family: "AppleSDGothicNeoH00 Regular";
+        color: 28364A;
+        text-align: left;
+        margin-left: 90px;
+    }
+
+    #publising li {
+        display: inline;
+        margin-left: 90px;
+    }
+
+
+    #publising {
+        width: 1000px;
+        padding: 10px;
+        margin-left: 250px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #publising table {
+        padding: 30px;
+        margin-left: 100px;
+    }
+
+    #publising table th {
+        padding: 10px;
+    }
+
+
+    #planning div {
+        margin-left: 50px;
+        display: inline;
+    }
+
+    #planning h2 {
+        font-size: 30px;
+        font-family: "AppleSDGothicNeoH00 Regular";
+        color: 28364A;
+        text-align: left;
+        margin-left: 90px;
+    }
+
+    #planning li {
+        display: inline;
+        margin-left: 90px;
+    }
+
+
+    #planning {
+        width: 1000px;
+        padding: 10px;
+        margin-left: 250px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #planning table {
+        padding: 30px;
+        margin-left: 100px;
+    }
+
+    #planning table th {
+        padding: 10px;
+    }
+
+    #contect div {
+        margin-left: 50px;
+    }
+
+    #contect h2 {
+        font-size: 30px;
+        font-family: "AppleSDGothicNeoH00 Regular";
+        color: 28364A;
+        text-align: left;
+        margin-left: 90px;
+    }
+
+    #contect table {
+        padding: 30px;
+        margin-left: 100px;
+        text-align: left;
+        font-family: "나눔고딕";
+
+    }
+
+    #contect table td {
+        padding: 5px;
+    }
+
+    section#contect.col1 {
+        font-family: "나눔고딕";
+        width: 50px;
+    }
+
+    footer {
+        height: 60px;
+        padding-bottom: 0px;
+        clear: both;
+        text-align: center;
+        background-color: #E7CEBF;
+        position: relative;
+        font-family: "나눔고딕";
+        font-size: 10px;
+    }
