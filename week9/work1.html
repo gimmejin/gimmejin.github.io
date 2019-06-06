@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body{
+        font-famliy:나눔고딕;
+      }
+      table{
+        border-collapse:collapse;
+      }
+      table,td,th{
+        border:solid 1px #cccccc;
+        /* padding:10px; */
+      }
+      tr{
+        height:40;
+        text-align:center;
+      }
+      td, th{
+        padding:5px;
+      }
+      .train{
+        background-color:#fbdbf2;
+        color:#f1477b;
+        text-decoration:underline;
+        font-weight:bold;
+      }
+      #table_title{
+       height:30px;
+       background-color:#eeeeee;
+      }
+      #col1,#col4,#col7{
+        width:90px;
+      }
+      #col2, #col3{
+        width:60px;
+      }
+      #col5, #col6{
+        width:80px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h2>KTX열차표 예매</h2>
+
+    <table>
+      <tr id="table_title">
+        <th>열차번호</th>
+        <th>출발</th>
+        <th>도착</th>
+        <th>출발시간</th>
+        <th>특실</th>
+        <th>일반실</th>
+        <th>소요시간</th>
+      </tr>
+
+      <tr>
+        <td id="col1" class="train">175</td>
+        <td id="col2">서울 <br> 21:00</td>
+        <td id="col3">부산 <br> 23:44</td>
+        <td id="col4">21:30</td>
+        <td id="col5"><img src="./img/sold.png" width="50" alt=""></td>
+        <td id="col6"><img src="./img/sold.png" width="50" alt=""></td>
+        <td id="col7">02:44</td>
+      </tr>
+
+      <tr>
+        <td class="train">179</td>
+        <td>서울 <br> 22:00</td>
+        <td>부산 <br>00:42</td>
+        <td>22:00</td>
+        <td><img src="./img/reserved.png" width="50" alt=""></td>
+        <td><img src="./img/reserved.png" width="50" alt=""></td>
+        <td>02:42</td>
+      </tr>
+    </table>
+  </body>
+</html>
